@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #d4ece6;
+}
+
+/* //////////////////////////////////////////////////////////////////////// 
+CONTAINER
+//////////////////////////////////////////////////////////////////////// */
+
+.container {
+    margin: 50px 25PX;
+    width: 395px;
+    height: 590px;
+    background-color: #f1f1f1;
+    border: 1px solid rgb(128, 127, 127);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    box-shadow: 25px 25px 19px rgba(10, 199, 169, 0.1);
+
+}
+
+.container .btn-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.container input {
+    width: 98%;
+    height: 80px;
+    border-radius: 10px;
+    color: #00a037;
+    font-size: 60px;
+    margin: 20px 0px;
+    padding: 10px;
+    text-align: right;
+    box-shadow: inset 10px 10px 10px -4px rgba(10, 199, 169, 0.1), inset -10px -10px 10px -4px rgba(255, 255, 255, 1.7);
+}
+
+.container .btn-box .btn button {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 6px;
+    cursor: pointer;
+    border: none;
+    color: #00a037;
+    background-color: #ebeef1;
+    box-shadow: 5px 6px 5px -5px rgba(10, 199, 169, 0.8), -5px -5px 5px -2px rgba(255, 255, 255, 0.70);
+}
+
+p {
+    font-size: 40px;
+    font-weight: 800;
+}
